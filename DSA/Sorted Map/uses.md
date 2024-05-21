@@ -17,9 +17,9 @@ _Time-sensitive applications:_ applications with strong temporal constraints:
     - Simple Spell Checkers
     - The "AutoComplete" function of a Predictive Editor
 
-  - Problem 1: List in Order the Entries of a Map
-    - Design a static, generic, iterative method, entries, that returns a ListPOI with the Entries of a non-empty SortedMap in ascending order.
-  - Problem 2: Sorting
-    - Design a static, generic, iterative method, mapSort, that, with the help of a SortedMap, sorts the elements (Comparable) of a non-empty array, without duplicates.
-  - Problem 3: 2-SUM (simplification of the subset sum problem)
-    - Design a static, iterative method, 2ThatSum, that, given a nonempty array v of integers and an integer k, determines whether there exist in v two numbers which sum is k. Use a SortedMap as an auxiliary EDA.
+- _Problem 1:_ List in Order the Entries of a Map
+  - Design a static, generic, iterative method, entries, that returns a ListPOI with the Entries of a non-empty SortedMap in ascending order.
+- _Problem 2:_ Sorting
+  - Design a static, generic, iterative method, mapSort, that, with the help of a SortedMap, sorts the elements (Comparable) of a non-empty array, without duplicates.
+- _Problem 3:_ 2-SUM (simplification of the subset sum problem)
+  - Design a static, iterative method, 2ThatSum, that, given a nonempty array v of integers and an integer k, determines whether there exist in v two numbers which sum is k. Use a SortedMap as an auxiliary EDA.
