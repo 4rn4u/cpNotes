@@ -31,3 +31,37 @@ public class breadth {
         }
     }
 }
+
+public class breadth{
+    protected int visited[];
+    protected int orderVisited[];
+    protected Queue<Integer> q;
+
+    public int[] ToArrayBFS(){
+        int[] res = new int[numVertices()];
+        visited[] = new int[numvertices()];
+        orderVisited = 0;
+        q = new ArrayQueue<Integer>();
+        for (int i = 0; i<numvertices(); i++){
+            if (vertices[i] == 0) ToAraryBFS(i, res)
+        }
+    }
+    public void ToArrayBFS(int v, int[] res){
+        res[orderVisited++] = v;
+        visited[v] = 1;
+        q.enqueue(v);
+        while (!q.isEmpty()){
+            int u = q.dequeue().intValue();
+            ListPOI l = adjacentsTo(u);
+            for(l.begin;!l.isEmpty;l.next()){
+                w = l.get().getTarget();
+                if (visited[w] == 0){
+                    res[orderVisited++] = v;
+                    visited[v] = 1;ç
+                    c.enqueue(w);
+
+                }
+            }
+        }
+    }
+}
